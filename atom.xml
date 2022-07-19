@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-19T02:56:16.527Z</updated>
+  <updated>2022-07-19T03:59:01.416Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://example.com/2022/07/19/%E6%B5%8B%E8%AF%95/"/>
     <id>http://example.com/2022/07/19/%E6%B5%8B%E8%AF%95/</id>
     <published>2022-07-19T02:55:12.000Z</published>
-    <updated>2022-07-19T02:56:16.527Z</updated>
+    <updated>2022-07-19T03:59:01.416Z</updated>
     
-    <content type="html"><![CDATA[<p>#测试</p>]]></content>
+    <content type="html"><![CDATA[<p>npm<br>node<br>git<br>npm install -g hexo -cli</p><h2 id="1-hexo-init"><a href="#1-hexo-init" class="headerlink" title="1.hexo init "></a>1.hexo init <filename></h2><p>hexo clean<br>hexo generolar&#x2F;hexo g</p><h2 id="2-hexo-server-x2F-hexo-s"><a href="#2-hexo-server-x2F-hexo-s" class="headerlink" title="2.hexo server&#x2F;hexo s"></a>2.hexo server&#x2F;hexo s</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;#测试&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;npm&lt;br&gt;node&lt;br&gt;git&lt;br&gt;npm install -g hexo -cli&lt;/p&gt;
+&lt;h2 id=&quot;1-hexo-init&quot;&gt;&lt;a href=&quot;#1-hexo-init&quot; class=&quot;headerlink&quot; title=&quot;1.hexo init &quot;&gt;&lt;/</summary>
       
     
     
