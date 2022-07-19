@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-19T07:03:56.040Z</updated>
+  <updated>2022-07-19T07:07:31.750Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo + github pages测试个人博客</title>
+    <title>hexo + github page测试个人博客</title>
     <link href="http://example.com/2022/07/19/%E6%B5%8B%E8%AF%95/"/>
     <id>http://example.com/2022/07/19/%E6%B5%8B%E8%AF%95/</id>
     <published>2022-07-19T02:55:12.000Z</published>
-    <updated>2022-07-19T07:03:56.040Z</updated>
+    <updated>2022-07-19T07:07:31.750Z</updated>
     
-    <content type="html"><![CDATA[<p>1.环境准备<br>1）安装node.js<br>2）安装git<br>3）安装hexo<br>npm install -g hexo-cli<br>####4）安装hexo-deployer-git<br>npm –save install hexo-deployer-git<br>##2.hexo实现博客（本地）<br>####1）初始化本地文件夹<br>hexo init <filename><br>####2）新建文章<br>hexo new “测试博客”&#x2F;hexo n “缩写”<br>####3）清理缓存文件<br>hexo clean<br>####4）生成静态文件<br>hexo generate&#x2F;hexo g<br>####5）启动本地服务器<br>hexo server&#x2F;hexo s<br>##3.部署到github pages<br>####1）github注册账号<br>####2）github新建仓库<br>以[github用户名].github.io为仓库名新建仓库，仓库的静态网页会部署到http:&#x2F;&#x2F;[github用户名].github.io<br>####3）设置密钥<br>#####a）执行命令，生成密钥<br>ssh-keygen -t rsa -C “Github的注册邮箱地址”<br>#####b）在下面位置找到密钥并复制<br>Your public key has been saved in &#x2F;c&#x2F;Users&#x2F;user&#x2F;.ssh&#x2F;id_rsa.pub.<br>#####c）在点击<a href="https://github.com/settings/ssh%E7%9A%84add">https://github.com/settings/ssh的add</a> ssh key按钮后，将密钥粘贴进去<br>####4）部署到网站<br>#####a）配置_config.yml文件（空格也很重要）<br>deploy:<br>  type: git<br>  repo: <a href="https://github.com/Banbooooooo/Banbooooooo.github.io.git">https://github.com/Banbooooooo/Banbooooooo.github.io.git</a><br>  branch: main<br>#####b）部署网站（部署过程中会弹出GitHub认证）<br>hexo deploy</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1.环境准备"></a>1.环境准备</h2><h4 id="1）安装node-js"><a href="#1）安装node-js" class="headerlink" title="1）安装node.js"></a>1）安装node.js</h4><h4 id="2）安装git"><a href="#2）安装git" class="headerlink" title="2）安装git"></a>2）安装git</h4><h4 id="3）安装hexo"><a href="#3）安装hexo" class="headerlink" title="3）安装hexo"></a>3）安装hexo</h4><p>npm install -g hexo-cli</p><h4 id="4）安装hexo-deployer-git"><a href="#4）安装hexo-deployer-git" class="headerlink" title="4）安装hexo-deployer-git"></a>4）安装hexo-deployer-git</h4><p>npm –save install hexo-deployer-git</p><h2 id="2-hexo实现博客（本地）"><a href="#2-hexo实现博客（本地）" class="headerlink" title="2.hexo实现博客（本地）"></a>2.hexo实现博客（本地）</h2><h4 id="1）初始化本地文件夹"><a href="#1）初始化本地文件夹" class="headerlink" title="1）初始化本地文件夹"></a>1）初始化本地文件夹</h4><p>hexo init <filename></p><h4 id="2）新建文章"><a href="#2）新建文章" class="headerlink" title="2）新建文章"></a>2）新建文章</h4><p>hexo new “测试博客”&#x2F;hexo n “缩写”</p><h4 id="3）清理缓存文件"><a href="#3）清理缓存文件" class="headerlink" title="3）清理缓存文件"></a>3）清理缓存文件</h4><p>hexo clean</p><h4 id="4）生成静态文件"><a href="#4）生成静态文件" class="headerlink" title="4）生成静态文件"></a>4）生成静态文件</h4><p>hexo generate&#x2F;hexo g</p><h4 id="5）启动本地服务器"><a href="#5）启动本地服务器" class="headerlink" title="5）启动本地服务器"></a>5）启动本地服务器</h4><p>hexo server&#x2F;hexo s</p><h2 id="3-部署到github-page的网站上"><a href="#3-部署到github-page的网站上" class="headerlink" title="3.部署到github page的网站上"></a>3.部署到github page的网站上</h2><h4 id="1）github注册账号"><a href="#1）github注册账号" class="headerlink" title="1）github注册账号"></a>1）github注册账号</h4><h4 id="2）github新建仓库"><a href="#2）github新建仓库" class="headerlink" title="2）github新建仓库"></a>2）github新建仓库</h4><p>以[github用户名].github.io为仓库名新建仓库，仓库的静态网页会部署到http:&#x2F;&#x2F;[github用户名].github.io</p><h4 id="3）设置密钥"><a href="#3）设置密钥" class="headerlink" title="3）设置密钥"></a>3）设置密钥</h4><h5 id="a）执行命令，生成密钥"><a href="#a）执行命令，生成密钥" class="headerlink" title="a）执行命令，生成密钥"></a>a）执行命令，生成密钥</h5><p>ssh-keygen -t rsa -C “Github的注册邮箱地址”</p><h5 id="b）在下面位置找到密钥并复制"><a href="#b）在下面位置找到密钥并复制" class="headerlink" title="b）在下面位置找到密钥并复制"></a>b）在下面位置找到密钥并复制</h5><p>Your public key has been saved in &#x2F;c&#x2F;Users&#x2F;user&#x2F;.ssh&#x2F;id_rsa.pub.</p><h5 id="c）在点击https-github-com-settings-ssh的add-ssh-key按钮后，将密钥粘贴进去"><a href="#c）在点击https-github-com-settings-ssh的add-ssh-key按钮后，将密钥粘贴进去" class="headerlink" title="c）在点击https://github.com/settings/ssh的add ssh key按钮后，将密钥粘贴进去"></a>c）在点击<a href="https://github.com/settings/ssh%E7%9A%84add">https://github.com/settings/ssh的add</a> ssh key按钮后，将密钥粘贴进去</h5><h4 id="4）部署到网站"><a href="#4）部署到网站" class="headerlink" title="4）部署到网站"></a>4）部署到网站</h4><h5 id="a）配置-config-yml文件（空格也很重要）"><a href="#a）配置-config-yml文件（空格也很重要）" class="headerlink" title="a）配置_config.yml文件（空格也很重要）"></a>a）配置_config.yml文件（空格也很重要）</h5><p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/Banbooooooo/Banbooooooo.github.io.git">https://github.com/Banbooooooo/Banbooooooo.github.io.git</a><br>  branch: main</p><h5 id="b）部署网站（部署过程中会弹出GitHub认证）"><a href="#b）部署网站（部署过程中会弹出GitHub认证）" class="headerlink" title="b）部署网站（部署过程中会弹出GitHub认证）"></a>b）部署网站（部署过程中会弹出GitHub认证）</h5><p>hexo deploy</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;1.环境准备&lt;br&gt;1）安装node.js&lt;br&gt;2）安装git&lt;br&gt;3）安装hexo&lt;br&gt;npm install -g hexo-cli&lt;br&gt;####4）安装hexo-deployer-git&lt;br&gt;npm –save install hexo-deployer-g</summary>
+    <summary type="html">&lt;h2 id=&quot;1-环境准备&quot;&gt;&lt;a href=&quot;#1-环境准备&quot; class=&quot;headerlink&quot; title=&quot;1.环境准备&quot;&gt;&lt;/a&gt;1.环境准备&lt;/h2&gt;&lt;h4 id=&quot;1）安装node-js&quot;&gt;&lt;a href=&quot;#1）安装node-js&quot; class=&quot;header</summary>
       
     
     
